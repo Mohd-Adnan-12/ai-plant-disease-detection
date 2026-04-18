@@ -25,12 +25,12 @@ plant-disease-detection-ai/
 ├── requirements.txt
 │
 ├── models/
-│ ├── class_labels.json
-│ └── training_history.json
+│   ├── class_labels.json
+│   └── training_history.json
 │
 ├── assets/
-│ ├── training_curves.png
-│ └── confusion_matrix.png
+│   ├── training_curves.png
+│   └── confusion_matrix.png
 
 ---
 
@@ -63,13 +63,15 @@ python train.py
 
 🚀 How to Run
 1. Clone Repository
-git clone https://github.com/yourusername/plant-disease-detection-ai.git
+git clone https://github.com/Mohd-Adnan-12/ai-plant-disease-detection
 cd plant-disease-detection-ai
 2. Install Dependencies
 pip install -r requirements.txt
 3. Train the Model
 python train.py
-4. Run the App
+4. Predict the Model
+python predict.py
+6. Run the App
 streamlit run app.py
 Open in browser:
 http://localhost:8501
