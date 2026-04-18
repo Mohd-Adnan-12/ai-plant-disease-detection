@@ -38,7 +38,7 @@ plant-disease-detection-ai/
 
 Dataset used: **Plant Village Dataset (Kaggle)**
 
-🔗 Link: https://www.kaggle.com/datasets/rashikrahmanpritom/plant-disease-recognition-dataset
+🔗 Link: https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset
 
 ### Classes:
 - Healthy
