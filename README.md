@@ -15,9 +15,9 @@ A deep learning-based web application that detects plant diseases from leaf imag
 - ⚡ Fast inference (~50–150ms)
 
 ---
-
 ## 📁 Project Structure
 
+```
 plant-disease-detection-ai/
 ├── app.py
 ├── train.py
@@ -31,6 +31,7 @@ plant-disease-detection-ai/
 ├── assets/
 │   ├── training_curves.png
 │   └── confusion_matrix.png
+```
 
 ---
 
@@ -46,10 +47,12 @@ Dataset used: **Plant Village Dataset (Kaggle)**
 - Rust
 
 ### After downloading, structure should be:
+```
 Dataset/
 ├── Train/Train/{Healthy,Powdery,Rust}/
 ├── Validation/Validation/{Healthy,Powdery,Rust}/
 └── Test/Test/{Healthy,Powdery,Rust}/
+```
 
 ---
 
