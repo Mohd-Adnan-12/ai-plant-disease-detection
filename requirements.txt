@@ -1,0 +1,24 @@
+# Smart Plant Disease Detection System
+# Requirements
+# Install: pip install -r requirements.txt
+
+# ── Deep Learning ────────────────────────────────────────────────────────────
+tensorflow>=2.13.0          # TensorFlow + Keras (includes MobileNetV2)
+# OR use: tensorflow-cpu>=2.13.0  (for CPU-only environments / Streamlit Cloud)
+
+# ── Web App ──────────────────────────────────────────────────────────────────
+streamlit>=1.35.0           # Web UI framework
+plotly>=5.18.0              # Interactive charts (gauge, bar, line)
+
+# ── Image Processing ─────────────────────────────────────────────────────────
+Pillow>=10.0.0              # PIL image handling
+opencv-python-headless>=4.8.0  # OpenCV (headless = no GUI, safe for cloud)
+
+# ── Data & Visualization ─────────────────────────────────────────────────────
+numpy>=1.24.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+scikit-learn>=1.3.0         # Confusion matrix, classification report
+
+# ── Utilities ────────────────────────────────────────────────────────────────
+pandas>=2.0.0
